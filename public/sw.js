@@ -12,7 +12,7 @@ self.addEventListener("push", (event) => {
     body: data.body || "A new update is available for a patient.",
     icon: "/icon.png",
     badge: "/badge.png",
-    vibrate: [300, 100, 300], // Professional medical pattern
+    vibrate: [300, 100, 300],
     tag: "critical-update",
     actions: [
       { action: "view", title: "View Patient Record" },
